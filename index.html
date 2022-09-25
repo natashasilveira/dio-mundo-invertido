@@ -6,18 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE-edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./assets/styles.css">
   </head>
 
   <body class="light-theme" aria-label="O site está utilizando o tema light" role="body">
     <header>
       <audio id="music" autoplay>
-        <source src="./normal-world.mpeg"/>
+        <source src="./assets/normal-world.mpeg"/>
         Este navegador não aceita áudio
       </audio>
 
       <div class="header-content">
-        <img class="invert-element" src="./mundo-invertido-logo.svg" alt="Imagem principal" />
+        <img class="invert-element" src="./assets/mundo-invertido-logo.svg" alt="Imagem principal" />
 
         <p class="invert-element" role="text">
           Uma jornada para quem não tem medo do desconhecido. O caminho para o 
@@ -45,7 +45,7 @@
         </div>
         <img 
           class="invert-element"
-          src="./inverted-world.png" 
+          src="./assets/inverted-world.png" 
           alt="Imagem ilustrativa do Mundo Invertido"
         />
       </section>
@@ -79,13 +79,13 @@
           <h2>A segunda série mais assistida da Netflix</h2>
           <ul class="gallery-container" role="gallery" style>
             <li class="gallery-image invert-element">
-              <img src="./serie-image-01.png" alt="Imagem de Vecna">
+              <img src="./assets/serie-image-01.png" alt="Imagem de Vecna">
             </li>
             <li class="gallery-image invert-element">
-              <img src="./serie-image-02.png" alt="Imagem ilustrativa dos amigos de Eleven">
+              <img src="./assets/serie-image-02.png" alt="Imagem ilustrativa dos amigos de Eleven">
             </li>
             <li class="gallery-image invert-element">
-              <img src="./serie-image-03.png" alt="Imagem de Eleven assustada">
+              <img src="./assets/serie-image-03.png" alt="Imagem de Eleven assustada">
             </li>
           </ul>
         </div>
@@ -129,7 +129,7 @@
         Projeto construído para fins didáticos, com o objetivo de colocar em
         prática os conhecimentos de HTML, CSS e JavaScript aprendidos na DIO._
       </p>
-      <img src="./logo.svg" alt="Logotipo DIO">
+      <img src="./assets/logo.svg" alt="Logotipo DIO">
     </footer>
 
     <script type="module" src="main.js"></script>
@@ -145,7 +145,7 @@
         document.body.classList.toggle('light-theme');
 
         const theme = document.body.classList;
-        const music = theme === 'light-theme' ? './normal-world-mpeg' : './inverted-world.mpeg';
+        const music = theme === 'light-theme' ? './assets/normal-world.mpeg' : './assets/inverted-world.mpeg';
 
         const audio = document.getElementById('music');
         audio.src = `${music}`;
