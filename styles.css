@@ -19,11 +19,11 @@
   --header-background-color: #e3e3e3;
   --highlight-color: #000;
   --feature-font-family: "Archivo", sans-serif;
-  --character-top-image-src: url("./kids-on-the-bike.svg");
+  --character-top-image-src: url("./assets/kids-on-the-bike.svg");
   --character-top-image-color: white;
-  --character-bottom-image-src: url("inverted-world-monster.svg");
+  --character-bottom-image-src: url("./assets/inverted-world-monster.svg");
   --character-bottom-image-color: #e5e5e5;
-  --background-lamp-image: url("lamps.png");
+  --background-lamp-image: url("./assets/lamps.png");
   --footer-background-color: #b5bbbf;
 }
 
@@ -38,11 +38,11 @@
   --header-background-color: #220f0f;
   --highlight-color: #ffffff;
   --feature-font-family: "Rubik Glitch", sans-serif;
-  --character-top-image-src: url("inverted-world-monster.svg");
+  --character-top-image-src: url("./assets/inverted-world-monster.svg");
   --character-top-image-color: rgba(10, 1, 1, 1);
-  --character-bottom-image-src: url("./kids-on-the-bike.svg");
+  --character-bottom-image-src: url("./assets/kids-on-the-bike.svg");
   --character-bottom-image-color: rgba(255, 255, 255, 0.1);
-  --background-lamp-image: url("lamps-inverted.png");
+  --background-lamp-image: url("./assets/lamps-inverted.png");
   --footer-background-color: #000;
 }
 
@@ -134,7 +134,7 @@ header::before {
   width: 100%;
   height: 100%;
   position: absolute;
-  background-image: url("florest.webp");
+  background-image: url("./assets/florest.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center 90%;
@@ -209,7 +209,7 @@ main::before {
   height: 100%;
   position: absolute;
   background: var(--page-background) no-repeat,
-    url("florest.png") no-repeat;
+    url("./assets/florest.png") no-repeat;
   background-size: cover;
   z-index: -1;
   
@@ -396,7 +396,7 @@ footer::after {
   content: "";
   width: 300px;
   height: 200px;
-  background: url("tape.svg") no-repeat;
+  background: url("./assets/tape.svg") no-repeat;
   background-size: contain;
   position: absolute;
   bottom: -30px;
