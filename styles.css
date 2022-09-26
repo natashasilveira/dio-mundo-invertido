@@ -19,9 +19,9 @@
   --header-background-color: #e3e3e3;
   --highlight-color: #000;
   --feature-font-family: "Archivo", sans-serif;
-  --character-top-image-src: url("./assets/kids-on-the-bike.svg");
+  --character-top-image-src: url("assets/kids-on-the-bike.svg");
   --character-top-image-color: white;
-  --character-bottom-image-src: url("./assets/inverted-world-monster.svg");
+  --character-bottom-image-src: url("assets/inverted-world-monster.svg");
   --character-bottom-image-color: #e5e5e5;
   --background-lamp-image: url("./assets/lamps.png");
   --footer-background-color: #b5bbbf;
@@ -213,11 +213,6 @@ main::before {
   background-size: cover;
   z-index: -1;
   
-  /***
-  background: var(--page-background) no-repeat;
-  background-image: url("florest.png") no-repeat;
-  background-size: cover;
-  z-index: -1;***/
 }
 
 /*** SECTIONS STYLES ***/
